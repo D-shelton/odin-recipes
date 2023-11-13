@@ -1,0 +1,17 @@
+body {
+    background-image:url("./recipes/feast.jpg")
+}
+
+.header {
+    color:darkgoldenrod; 
+    text-align:center; 
+    width:275px; 
+    margin:auto;
+}
+
+.content {
+    text-align: center;
+    width:300px;
+    margin:auto;
+    
+}
