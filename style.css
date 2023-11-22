@@ -1,17 +1,30 @@
 body {
-    background-image:url("./recipes/feast.jpg")
+   /* background-image:url("./recipes/feast.jpg") */
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.content ul {
+    list-style: none;
+    flex:1 1 auto;
+    width:500px;
 }
 
 .header {
     color:darkgoldenrod; 
     text-align:center; 
-    width:275px; 
     margin:auto;
 }
 
 .content {
     text-align: center;
-    width:300px;
     margin:auto;
+    display:flex;
+    width:100%;
     
+}
+
+li {
+    font-size:20px;
+    flex: 1 1 auto;
 }
