@@ -1,30 +1,51 @@
-body {
-   /* background-image:url("./recipes/feast.jpg") */
-   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-
-.content ul {
-    list-style: none;
-    flex:1 1 auto;
-    width:500px;
+.index {
+    width:100vw;
+    height:100vh;
+    margin:-8px;
+   background-image:url("./recipes/feast.jpg"); 
+   background-size:cover;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header {
-    color:darkgoldenrod; 
+    color:goldenrod; 
     text-align:center; 
     margin:auto;
 }
 
 .content {
-    text-align: center;
-    margin:auto;
     display:flex;
-    width:100%;
-    
+    text-align: center;
+    list-style: none;
+    height: 80vh;
+    align-items:center;
+
+ /*   border-style: solid;
+    border-color:red;
+    background-color: pink; */
 }
 
-li {
+.list-item {
     font-size:20px;
     flex: 1 1 auto;
+    height:35%;
+
+ /*   border-style: solid;
+    border-color: orange;
+    background-color: yellow; */
+}
+
+.index-mead {
+    height:20vh;
+    width:auto;
+}
+
+.index-bread {
+    height: 30vh;
+    width: auto;
+}
+
+.index-beast {
+    height:20vh;
+    width:auto;
 }
